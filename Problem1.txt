@@ -1,0 +1,36 @@
+Problem Statement 1:-
+You have to write test cases to test Sign-up functionality.
+Here is the workflow of whole process:-
+● Enter Details
+○ Full name
+○ Email
+○ Phone number
+○ Password
+● Agree terms and conditions
+● Click register
+● Enter OTP that sent to the Phone number
+● Click Verify
+● Now verify Onboarding screen
+
+
+Answer:
+Test Case 1: Verify that the Registration form must contains Full name, Email, Phone number, Password, Confirm Password, Submit Details.
+Test Case 2: Verify that the Contact Number must be a valid contact number
+Test Case 3: Verify the OTP with the correct contact number
+Test Case 4: Verify before clicking on submit button, user must agree the terms and conditions
+Test Case 5: Verify that tab functionality is working properly or not
+Test Case 6: Verify that Enter key works as a substitute for the Submit button
+Test Case 7: Verify resend button works fine when user not get the OTP in given 1 or 2 minutes time
+Test Case 8: Verify that all the fields such as Full name, Email, Phone number and Password have a valid placeholder
+Test Case 9: Verify that all the required/mandatory fields are marked with * against the field
+Test Case 10: Verify that all the required fields must be filled, otherwise it must show error/warning
+TestCase 11: Verify that clicking on submit button after entering all the mandatory fields, submits the data to the server
+Test Case 12: Verify that clicking on submit button by leaving optional fields, submits the data to the server without any validation error
+Test Case 13: Verify that system generates a validation message when entering existing username
+Test Case 14: Verify that the character limit in all the fields (mainly Fullname and password) based on business requirement
+Test Case 15: Verify that the password length must be of atlease 8 and must contains one upper case letter, one lower case letter, one digit and one special symbol
+Test Case 16: Verify that the password is in encrypted form when entered
+Test Case 17: Verify whether the password and confirm password are same or not
+Test Case 18: Verify the authentication in case of right and wrong username and password
+Test Case 19: Verify that a mail should successfully send to the user on successfully registration
+Test Case 20: Verify all buttons, radio buttons, checkboxes by clicking on all buttons and see if they are working or not. 
